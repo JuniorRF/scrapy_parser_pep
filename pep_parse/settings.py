@@ -3,7 +3,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
 
-RESULTS = BASE_DIR / 'results/'
+RESULTS = 'results/'
 
 BOT_NAME = 'pep_parse'
 
