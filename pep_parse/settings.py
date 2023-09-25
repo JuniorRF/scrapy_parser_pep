@@ -1,7 +1,9 @@
 from pathlib import Path
 
 
-URL = 'peps.python.org/'
+DOMAIN = 'peps.python.org'
+
+URL = 'https://' + DOMAIN + '/'
 
 BASE_DIR = Path(__file__).parent.parent
 
