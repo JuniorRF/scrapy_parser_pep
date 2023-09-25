@@ -1,6 +1,8 @@
 from pathlib import Path
 
 
+URL = 'peps.python.org/'
+
 BASE_DIR = Path(__file__).parent.parent
 
 RESULTS = 'results/'
