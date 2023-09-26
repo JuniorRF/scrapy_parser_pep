@@ -3,7 +3,7 @@ from pathlib import Path
 
 DOMAIN = 'peps.python.org'
 
-URL = 'https://' + DOMAIN + '/'
+URL = f'https://{DOMAIN}/'
 
 BASE_DIR = Path(__file__).parent.parent
 
